@@ -2,7 +2,7 @@
 title: Getting Started with Nuxt 3
 description: This is a quick introduction on how to get started with Nuxt 3.
 date: 2023-05-24
-cover: sample2.jpg
+cover: sample-2.jpg
 tags:
   - nuxt
   - vue
