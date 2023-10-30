@@ -17,6 +17,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "nuxt": "^3.8.0",
     "nuxt-icon": "^0.6.1",
+    "tslib": "^2.5.1",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"
   },
