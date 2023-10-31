@@ -9,6 +9,7 @@ const navigation = [
     { name: 'Blog', href: '/blog', current: route.name.includes('blog') },
     { name: 'Projects', href: '/projects', current: route.name == 'projects' },
     { name: 'Uses', href: '/uses', current: route.name == 'uses' },
+    { name: 'microCMSBlog', href: '/microcms', current: route.name == 'microcms' },
 ]
 </script>
 <template>
