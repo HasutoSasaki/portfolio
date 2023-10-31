@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
     '@nuxt/content',
-    '@nuxtjs/apollo'
+    '@nuxtjs/apollo',
+    'nuxt-microcms-module'
   ],
   runtimeConfig: {
     githubToken: process.env.GITHUB_TOKEN
@@ -24,5 +25,8 @@ export default defineNuxtConfig({
       }
     }
   },
-
+  microCMS: {
+    serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
+    apiKey: process.env.MICROCMS_API_KEY,
+  },
 })
