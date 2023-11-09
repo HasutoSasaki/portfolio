@@ -9,12 +9,10 @@ export default defineNuxtConfig({
     'nuxt-microcms-module'
   ],
   runtimeConfig: {
-    public: {
-      githubToken: process.env.GITHUB_TOKEN,
-      microCMS: {
-        serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
-        apiKey: process.env.MICROCMS_API_KEY,
-      },
+    githubToken: process.env.GITHUB_TOKEN,
+    microCMS: {
+      serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
+      apiKey: process.env.MICROCMS_API_KEY,
     }
   },
   content: {
