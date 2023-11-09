@@ -2,6 +2,20 @@
 import type { Blog } from "~~/types/blog";
 import type { MDBlog } from "~~/types/blog";
 
+// import { MicroCMSClient } from 'microcms-js-sdk';
+
+// const serviceDomain = this.$config.public.microCMS.serviceDomain;
+// const apiKey = this.$config.public.microCMS.apiKey;
+
+// const client = new MicroCMSClient({
+//     serviceDomain: serviceDomain,
+//     apiKey: apiKey,
+// });
+
+// const { data } = await client.getList({
+//     endpoint: 'blogs',
+// });
+
 const { data } = await useMicroCMSGetList<Blog>({
     endpoint: 'blogs'
 })
